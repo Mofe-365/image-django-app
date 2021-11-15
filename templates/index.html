@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>Django app</h1>
-    <img src="https://images.unsplash.com/photo-1569706971306-de5d78f6418e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGFnb3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
+    <div>
+        <h1>Django app</h1>
+        <ul class='navbar'>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Sales</li>
+            <li>Products</li>
+        </ul>
+    </div>
+    <img src="{% static 'images/Mr Babajide.png' %}"/>
 </body>
 </html>
