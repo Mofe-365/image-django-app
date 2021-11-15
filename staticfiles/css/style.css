@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+
+}
+
+div, .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin-right: 2rem;
+    list-style: none;
+}
